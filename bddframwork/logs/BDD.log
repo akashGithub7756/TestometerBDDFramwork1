@@ -1,0 +1,5 @@
+[INFO ] 2025-03-01 12:56:26.419 [main] Logs - {WebDriverFactory} chrome
+[INFO ] 2025-03-01 12:56:30.178 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
+[INFO ] 2025-03-01 12:56:31.019 [main] Logs - {BaseClass} launchSession is success
+[INFO ] 2025-03-01 12:57:16.780 [main] Logs - {BaseClass} screenshot is captured
+[INFO ] 2025-03-01 12:57:17.746 [main] Logs - {BaseClass} clearSession is success
