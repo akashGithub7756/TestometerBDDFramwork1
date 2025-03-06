@@ -1,11 +1,11 @@
-#Author: your.email@your.domain.com
-
-@BDD
+@Regression @Test1
 Feature: Login page scenarios
 
 Scenario: Verify that the login is successful
-Given i click Login
-And I enter username as mohanpalekar02@gmail.com
-And I enter password as ffffercdfv
-And I click on login button
-Then I see Your account is displayed
+Given I click Login
+ And I enter username as mohanpalekar02@gmail.com
+ And I enter password as Stble1245%
+ And I click on login button
+ And I click Press and Hold when asked if I am Robot
+ Then I see Your account is displayed
+ 
