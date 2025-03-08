@@ -40,6 +40,7 @@ public class LoginPageStepDefinition {
 	}
 
 	@Then("^I see (.*) is displayed$")
+	//Your accout make in parameter(.*) & Automatically convert (.*) to String ,this string pass in parameter
 	public void verifyDashboardPage(String userName) {
 		register.verifyUserIsLoggedIn(userName);
 	}
@@ -48,6 +49,7 @@ public class LoginPageStepDefinition {
 	public void validateInvalidEmailErrorMessage() {
 		register.verifyInvalidEmailMessage();
 	}
+
 	
 	@Then("^I verify that invalid password error message is shown to the user$")
 	public void validateInvalidPasswordErrorMessage() {

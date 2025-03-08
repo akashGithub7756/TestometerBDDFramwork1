@@ -24,6 +24,10 @@ public class WebDriverActions {
 	
 	private WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));
 	
+//	public void openURL() {
+//		driver.get(AppProperties.getProperty("src/test/resources/test.properties", "siteUrl"));
+//	}
+	
 	public WebElement waitUntilElementToBeClickable(By locator) {
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
 		executionOrder(element);
