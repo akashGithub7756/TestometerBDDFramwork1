@@ -34,8 +34,11 @@ public class LoginPageLocators extends WebDriverActions{
 		waitUntilElementToBeClickable(loginButton).click();
 	}
 	
-	public void verifyUserIsLoggedIn(String userName) {
+	//  String userName represent expected result
+	public void verifyUserIsLoggedIn(String userName) { 
+		//getText() IT IS COMMENLY USE IN TEST AUTOMATION TO VERIFY IF AN ELEMENT CONTAINS THE EXPECTED TEXT
 		String loggedInUserName = waitUntilVisibilityOfElementLocated(loginuserName).getText();
+		//actual result loggedInUserName
 		Assert.assertEquals(loggedInUserName, userName);
 	}
 	
