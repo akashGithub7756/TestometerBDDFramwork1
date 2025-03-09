@@ -1,4 +1,4 @@
-@Login
+@Login @Sanity
 Feature: Login page scenarios
 
   Scenario: Valid Bank Login
