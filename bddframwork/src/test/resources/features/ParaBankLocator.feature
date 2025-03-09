@@ -1,5 +1,5 @@
 
-  @tag1
+  @tag1 @Login
 Feature: Sent message to Parabank costomer care 
  Scenario: Sent message to customercare of parabank
     Given I click on message box

@@ -1,6 +1,6 @@
  @Regression  @Sanity
 Feature: Invalid Password
- 
+ @Login
  
   Scenario: Verify that invalid passwords are identified
     Given I am on the landing page
