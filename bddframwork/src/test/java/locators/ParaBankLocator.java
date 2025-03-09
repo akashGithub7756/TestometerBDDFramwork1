@@ -9,7 +9,7 @@ public class ParaBankLocator extends WebDriverActions {
 
 
 
-	private By MessegeBox = By.xpath("//li[contains(@class, 'contact')]");
+	private By MessegeBox = By.linkText("contact");
 	private By EnterName =By.xpath("//input[@name='name']");
 	private By EnterMail =By.xpath("//input[@name='email']");
 	private By EnterPhonNo =By.xpath("//input[@id='phone']");
