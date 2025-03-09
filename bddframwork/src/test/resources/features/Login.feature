@@ -1,6 +1,6 @@
 @Regression @Test1
 Feature: Login page scenarios
-
+@Login
 Scenario: Verify that the login is successful
  Given I am on the landing page
  And I close the popup when I see it
