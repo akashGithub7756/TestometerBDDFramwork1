@@ -52,6 +52,12 @@ public class WebDriverActions {
 		javascriptExecutor.executeScript("arguments[0].setAttribute('style', 'background: white; border: 2px solid green;');", element);
 	}
 	
+	public void click(WebElement element) {
+		 javascriptExecutor.executeScript("arguments[0].click();", element);
+		 }
+
+	
+	
 	public void pause() {
 		try {
 			TimeUnit.MILLISECONDS.sleep(timeOutInMillis);

@@ -10,7 +10,7 @@ public class PropertyTypeLocators extends WebDriverActions{
 	
 
 	private By getPropertyType(String propertyName) {
-		return By.xpath("h3[@data-testid='webcore-carousel-title' and text()='"+propertyName+"']");
+		return By.xpath("//h3[@data-testid='webcore-carousel-title' and text()='"+propertyName+"']");
 	}
 	//h3[@data-testid='webcore-carousel-title' and text()='Hotels']
 	public void verifyPropertyType(String propertyName) {
