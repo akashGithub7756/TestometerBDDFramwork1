@@ -9,15 +9,15 @@ public class ParaBankLocator extends WebDriverActions {
 
 
 
-	private By MessegeBox = By.linkText("contact");
+	private By MessegeBox = By.xpath("//a[text()='contact']");
 	private By EnterName =By.xpath("//input[@name='name']");
 	private By EnterMail =By.xpath("//input[@name='email']");
 	private By EnterPhonNo =By.xpath("//input[@id='phone']");
 	private By EnterMessage =By.xpath("//textarea[@name='message']");
-	private By ClickSendMassageButton =By.xpath("//input[@type='submit']");
+	private By ClickSendMassageButton =By.xpath("//input[@type='submit' and @value='Send to Customer Care']");
 	
 	public void Clickmessegebox() {
-		waitUntilVisibilityOfElementLocated(MessegeBox).click();
+		click(waitUntilElementToBeClickable(MessegeBox));
 	
 	}
 
@@ -40,7 +40,7 @@ public class ParaBankLocator extends WebDriverActions {
 
 
 	public void clicksendmassagebutton() {
-		waitUntilVisibilityOfElementLocated(ClickSendMassageButton).click();
+		waitUntilElementToBeClickable(ClickSendMassageButton).click();
 	}
 
 

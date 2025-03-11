@@ -74,17 +74,22 @@ public class BaseClass {
 	public static void cleanOldFiles() throws IOException {
 		final File folder = new File(System.getProperty("user.dir")+"/target/PDFReport");
 		final File[] files = folder.listFiles();
-		for (final File file : files)
-		{
-			if(file.isFile() && file.getName().contains(".pdf")) {
-				Files.deleteIfExists(Paths.get(file.getAbsolutePath()));
-				Logs.getLog().getLogger().info("{BaseClass} Deleted ---> "+file);
-			}
 
-		}
-	}
-	
-	
+		 if(folder.exists() && files.length>0) {
+
+		 for (final File file : files) 
+
+		{
+		     if(file.isFile() && file.getName().contains(".pdf")) {
+
+		          Files.deleteIfExists(Paths.get(file.getAbsolutePath()));
+
+		              Logs.getLog().getLogger().info("{BaseClass} Deleted ---> "+file); 
+		          }
+		        }
+		     }
+		 }
+
 
 
 	@AfterAll
