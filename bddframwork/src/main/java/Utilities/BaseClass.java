@@ -76,19 +76,15 @@ public class BaseClass {
 		final File[] files = folder.listFiles();
 
 		 if(folder.exists() && files.length>0) {
-
-		 for (final File file : files) 
-
-		{
+            for (final File file : files) {
 		     if(file.isFile() && file.getName().contains(".pdf")) {
-
-		          Files.deleteIfExists(Paths.get(file.getAbsolutePath()));
-
-		              Logs.getLog().getLogger().info("{BaseClass} Deleted ---> "+file); 
+              Files.deleteIfExists(Paths.get(file.getAbsolutePath()));
+               Logs.getLog().getLogger().info("{BaseClass} Deleted ---> "+file); 
 		          }
 		        }
 		     }
 		 }
+
 
 
 
