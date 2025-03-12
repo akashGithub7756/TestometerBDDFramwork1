@@ -1,8 +1,22 @@
-[INFO ] 2025-03-12 18:06:17.377 [main] Logs - {WebDriverFactory} chrome
-[INFO ] 2025-03-12 18:06:19.870 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
-[INFO ] 2025-03-12 18:06:23.623 [main] Logs - {BaseClass} launchSession is success
-[INFO ] 2025-03-12 18:06:26.921 [main] Logs - {BaseClass} clearSession is success
-[INFO ] 2025-03-12 18:06:26.944 [main] Logs - {WebDriverFactory} chrome
-[INFO ] 2025-03-12 18:06:27.923 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
-[INFO ] 2025-03-12 18:06:31.856 [main] Logs - {BaseClass} launchSession is success
-[INFO ] 2025-03-12 18:06:36.741 [main] Logs - {BaseClass} clearSession is success
+[INFO ] 2025-03-12 18:40:23.213 [main] Logs - {WebDriverFactory} chrome
+[INFO ] 2025-03-12 18:40:25.822 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
+[INFO ] 2025-03-12 18:40:30.923 [main] Logs - {BaseClass} launchSession is success
+[ERROR] 2025-03-12 18:40:46.587 [main] Logs - {LandingPageLocators} PopUp is not displayed
+[INFO ] 2025-03-12 18:41:09.742 [main] Logs - {BaseClass} screenshot is captured
+[INFO ] 2025-03-12 18:41:10.157 [main] Logs - {BaseClass} clearSession is success
+[INFO ] 2025-03-12 18:41:10.188 [main] Logs - {WebDriverFactory} chrome
+[INFO ] 2025-03-12 18:41:11.413 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
+[INFO ] 2025-03-12 18:41:15.315 [main] Logs - {BaseClass} launchSession is success
+[ERROR] 2025-03-12 18:41:30.502 [main] Logs - {LandingPageLocators} PopUp is not displayed
+[INFO ] 2025-03-12 18:41:53.937 [main] Logs - {BaseClass} screenshot is captured
+[INFO ] 2025-03-12 18:41:54.346 [main] Logs - {BaseClass} clearSession is success
+[INFO ] 2025-03-12 18:41:54.361 [main] Logs - {WebDriverFactory} chrome
+[INFO ] 2025-03-12 18:41:55.495 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
+[INFO ] 2025-03-12 18:41:56.198 [main] Logs - {BaseClass} launchSession is success
+[ERROR] 2025-03-12 18:42:15.410 [main] Logs - {LandingPageLocators} PopUp is not displayed
+[INFO ] 2025-03-12 18:42:16.334 [main] Logs - {BaseClass} clearSession is success
+[INFO ] 2025-03-12 18:42:16.344 [main] Logs - {WebDriverFactory} chrome
+[INFO ] 2025-03-12 18:42:17.367 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
+[INFO ] 2025-03-12 18:42:22.472 [main] Logs - {BaseClass} launchSession is success
+[ERROR] 2025-03-12 18:42:38.613 [main] Logs - {LandingPageLocators} PopUp is not displayed
+[INFO ] 2025-03-12 18:42:46.170 [main] Logs - {BaseClass} clearSession is success
