@@ -1,12 +1,4 @@
-[INFO ] 2025-07-27 14:17:10.705 [main] Logs - {WebDriverFactory} chrome
-[ERROR] 2025-07-27 14:17:12.114 [main] Logs - {WebDriverFactory} ERROR --> Invalid browserName : chrome
-[ERROR] 2025-07-27 14:17:12.117 [main] Logs - {WebDriverFactory} ERROR --> getWebDriverSession is failure : chrome
-[INFO ] 2025-07-27 14:17:12.290 [main] Logs - {WebDriverFactory} chrome
-[ERROR] 2025-07-27 14:17:12.542 [main] Logs - {WebDriverFactory} ERROR --> Invalid browserName : chrome
-[ERROR] 2025-07-27 14:17:12.543 [main] Logs - {WebDriverFactory} ERROR --> getWebDriverSession is failure : chrome
-[INFO ] 2025-07-27 14:17:12.585 [main] Logs - {WebDriverFactory} chrome
-[ERROR] 2025-07-27 14:17:12.940 [main] Logs - {WebDriverFactory} ERROR --> Invalid browserName : chrome
-[ERROR] 2025-07-27 14:17:12.942 [main] Logs - {WebDriverFactory} ERROR --> getWebDriverSession is failure : chrome
-[INFO ] 2025-07-27 14:17:12.991 [main] Logs - {WebDriverFactory} chrome
-[ERROR] 2025-07-27 14:17:13.201 [main] Logs - {WebDriverFactory} ERROR --> Invalid browserName : chrome
-[ERROR] 2025-07-27 14:17:13.201 [main] Logs - {WebDriverFactory} ERROR --> getWebDriverSession is failure : chrome
+[INFO ] 2025-07-27 14:21:28.182 [main] Logs - {WebDriverFactory} chrome
+[INFO ] 2025-07-27 14:21:55.626 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
+[INFO ] 2025-07-27 14:21:57.573 [main] Logs - {BaseClass} launchSession is success
+[INFO ] 2025-07-27 14:22:11.672 [main] Logs - {BaseClass} clearSession is success
