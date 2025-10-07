@@ -1,21 +1,4 @@
-[INFO ] 2025-03-17 17:25:29.120 [main] Logs - {WebDriverFactory} chrome
-[INFO ] 2025-03-17 17:25:31.845 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
-[INFO ] 2025-03-17 17:25:36.442 [main] Logs - {BaseClass} launchSession is success
-[ERROR] 2025-03-17 17:25:51.939 [main] Logs - {LandingPageLocators} PopUp is not displayed
-[INFO ] 2025-03-17 17:25:53.738 [main] Logs - {BaseClass} clearSession is success
-[INFO ] 2025-03-17 17:25:53.783 [main] Logs - {WebDriverFactory} chrome
-[INFO ] 2025-03-17 17:25:54.817 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
-[INFO ] 2025-03-17 17:26:03.498 [main] Logs - {BaseClass} launchSession is success
-[INFO ] 2025-03-17 17:26:04.063 [main] Logs - {BaseClass} clearSession is success
-[INFO ] 2025-03-17 17:26:04.070 [main] Logs - {WebDriverFactory} chrome
-[INFO ] 2025-03-17 17:26:04.973 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
-[INFO ] 2025-03-17 17:26:09.771 [main] Logs - {BaseClass} launchSession is success
-[INFO ] 2025-03-17 17:26:11.616 [main] Logs - {BaseClass} clearSession is success
-[INFO ] 2025-03-17 17:26:11.622 [main] Logs - {WebDriverFactory} chrome
-[INFO ] 2025-03-17 17:26:12.668 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
-[INFO ] 2025-03-17 17:26:18.656 [main] Logs - {BaseClass} launchSession is success
-[INFO ] 2025-03-17 17:26:19.122 [main] Logs - {BaseClass} clearSession is success
-[INFO ] 2025-03-17 17:26:19.128 [main] Logs - {WebDriverFactory} chrome
-[INFO ] 2025-03-17 17:26:20.212 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
-[INFO ] 2025-03-17 17:26:27.869 [main] Logs - {BaseClass} launchSession is success
-[INFO ] 2025-03-17 17:26:28.797 [main] Logs - {BaseClass} clearSession is success
+[INFO ] 2025-07-27 14:21:28.182 [main] Logs - {WebDriverFactory} chrome
+[INFO ] 2025-07-27 14:21:55.626 [main] Logs - {WebDriverFactory} INFO --> getWebDriverSession is success : chrome
+[INFO ] 2025-07-27 14:21:57.573 [main] Logs - {BaseClass} launchSession is success
+[INFO ] 2025-07-27 14:22:11.672 [main] Logs - {BaseClass} clearSession is success
